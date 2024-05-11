@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/main.css">
+  <title>Todo App</title>
+</head>
+
+<body>
+  <form id="todo-form">
+    <input type="text" id="todo-name">
+    <select id="todo-priority">
+      <option value="LOW">LOW</option>
+      <option value="MEDIUM">MEDIUM</option>
+      <option value="HIGH">HIGH</option>
+    </select>
+    <button id="add-todo">Add todo</button>
+  </form>
+  <ul id="todo-list"></ul>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
